@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <EditText
+        android:id="@+id/edtdesarrolladora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Empresa Desarrolladora"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/edtaño"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año de lanzamiento"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/botonsiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/botonvolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
